@@ -34,8 +34,10 @@
 .routine_in * {display:inline-block;width:100%}
 .routine_in .title {margin:5px 0 0 0;font-size:14px;}
 .routine_in .input {box-sizing:border-box;margin:5px 0 0 0;height:30px;line-height:30px;}
-.routine_in.routine_list{height:calc(100% - 210px);overflow-y:;}
+.routine_in.routine_list{height:calc(100% - 210px);overflow:hidden;}
 .routine_list .content_sub_title a{display:inline-block;width:auto;border-radius:5px;padding:0 10px;background:#eee;}
+.routine_list .content_sub_title a.center{margin:0 10px}
+.routine_list .routine_list_box{height:calc(100% - 40px);overflow-y:auto;}
 .rlb{display:flex;justify-content:flex-start;align-items:center;width:100%;height:30px;line-height:30px}
 .rlb input{width:20px;height:20px;vertical-align:middle;}
 .rlb_name{width:calc(100% - 30px)}
