@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"/>
+    <link rel="stylesheet" href="./_css/basic.css" />
+    <link rel="stylesheet" href="./_css/index copy.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    <!-- <link rel="shortcut icon" href="_data/images/favicon.ico"> -->
+
+    <!-- SCTIPT -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.14/index.global.min.js"></script>
+    <script src="./_js/index.js"></script>
+    <script src="./_js/FullCalender.js"></script>
+
+    <title>Routine</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="wrap_in">
+        <div class="content">
+          <div class="content_title">디벨롭에서 수정을 했어요.</div>
+          <div class="content_in">
+            <div class="routine">
+                <div class="routine_in routine_add">
+                    <div class="content_sub_title flex">
+                        <div class="left_title">일정등록하기</div>
+                        <div class="right_icon"><i class="fas fa-arrow-circle-up"></i></div>
+                    </div>
+                    <div class="routine_name"><label for="" class="title">루틴명</label><input type="text" / class="input"></div>
+                    <div class="routine_time">
+                        <label for="" class="title">기간</label>
+                        <select name="" id="" class="input">
+                            <option value="">오늘</option>
+                            <option value="">이번주</option>
+                            <option value="">이번달</option>
+                        </select>
+                        <input type="date" / class="input">
+                    </div>
+                </div>
+
+                <div class="routine_in routine_list">
+                    <div class="content_sub_title flex center">
+                        <a href="">월</a>
+                        <a href="" class="center">주</a>
+                        <a href="">달</a>
+                    </div>
+                    <div class="routine_list_box">
+                        <div class="rlb"><input type="checkbox"><div class="rlb_name">농구</div></div>
+                        <div class="rlb"><input type="checkbox"><div class="rlb_name">청소</div></div>
+                        <div class="rlb"><input type="checkbox"><div class="rlb_name">빨래</div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="cal">
+              <div id="calendar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
