@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"
+    />
+    <link rel="stylesheet" href="./_css/basic.css" />
+    <link rel="stylesheet" href="./_css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <!-- <link rel="shortcut icon" href="_data/images/favicon.ico"> -->
+
+    <!-- SCTIPT -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./_js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.14/index.global.min.js"></script>
+    <script src="./_js/fullcalendar.js"></script>
+
+    <title>Buddy</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="wrap_in">
+        <header class="flex">
+          <div class="logo">
+            <a href=""><img src="" alt="Buddy" /></a>
+          </div>
+          <div class="header_menu flex">
+            <div class="btn_sing">로그인</div>
+            <div class="user_status">XXX님 환영합니다.</div>
+          </div>
+        </header>
+        <div class="contens flex">
+          <div class="contens_in list flex">
+            <div class="btn_add_routine">일정등록하기</div>
+            <div class="routine_list_box">
+              <div class="btn_routine">
+                <div class="btn_my_routine">My</div>
+                <div class="btn_today_routine">Today</div>
+              </div>
+              <div class="routine_list">
+                <div class="rl_my">mylist</div>
+                <div class="rl_today">todaylist</div>
+              </div>
+            </div>
+          </div>
+          <div class="contens_in main">
+            <div class="cal">
+              <div id="calendar"></div>
+            </div>
+            <div class="routine_add">루틴등록페이지</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
